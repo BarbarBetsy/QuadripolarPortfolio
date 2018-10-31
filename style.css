@@ -26,7 +26,7 @@ li {
   list-style-type: none;
 }
 
-h1, a, h2, h3 {
+h1, a, h2, h3, a {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
   text-transform: uppercase;
@@ -172,8 +172,14 @@ text-align: right;
 }
 
 .video-container {
-  width: 70%;
-  margin: auto;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-container div {
+  width: 49%;
 }
 
 form input, textarea {
@@ -222,11 +228,11 @@ padding: 10px;
 
 footer {
   height: 40px;
-  background-color:  #ffcc00;
+  border-top: 1px solid #ffcc00;
 }
 
-footer p {
-  padding-top: 8px;
+footer a {
+  line-height: 2.5em;
 }
 
 @media screen and (max-width: 1024px) {

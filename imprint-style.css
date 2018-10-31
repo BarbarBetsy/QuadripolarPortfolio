@@ -1,0 +1,35 @@
+html, body {
+   
+}
+
+#imprint {
+    width: 50%;
+    margin: 50px auto;
+}
+
+h1, h3 {
+    font-family: "Josephine Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+hr {
+    height: 3px;
+    background-color:  #ffcc00;
+    border: 0px;
+    margin: 0 auto 20px auto;
+  }
+  
+
+p {
+    font-family: "Merriweather", serif;
+    line-height: 1.5em;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.63);
+}
+
+a:hover {
+    color: #ffcc00;
+}
