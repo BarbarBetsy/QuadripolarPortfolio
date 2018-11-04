@@ -3,7 +3,7 @@ html, body {
 }
 
 #imprint {
-    width: 50%;
+    width: 40%;
     margin: 50px auto;
 }
 
@@ -11,6 +11,7 @@ h1, h3 {
     font-family: "Josephine Sans", sans-serif;
     text-transform: uppercase;
     font-weight: 300;
+    margin: 1.5em 0;
 }
 
 hr {
@@ -19,7 +20,10 @@ hr {
     border: 0px;
     margin: 0 auto 20px auto;
   }
-  
+
+i {
+    margin-right: 1em;
+}
 
 p {
     font-family: "Merriweather", serif;

@@ -140,18 +140,20 @@ text-align: right;
 }
 
 .box {
-  width: 80%;
-  margin: 1% auto;
-  padding: 1%;
+  width: 95%;
+  margin: 1.5% auto;
   height: auto;
-  border: 2px solid #ffcc00;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.musiker-link {
+  margin-top: 15%;
 }
 
 .musiker {
   text-align: left;
-  width: 95%;
-  margin-bottom: 5px;
+  margin: 15px;
+  padding-left: 10px;
 }
 
 .musiker p {
@@ -161,8 +163,8 @@ text-align: right;
 
 .box img {
   width: 35%;
+  margin-right: 3%;
   float: left;
-  margin: 2%;
 }
 
 .box p {
@@ -172,14 +174,14 @@ text-align: right;
 }
 
 .video-container {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
 
 .video-container div {
-  width: 49%;
+  width: 30%;
 }
 
 form input, textarea {
