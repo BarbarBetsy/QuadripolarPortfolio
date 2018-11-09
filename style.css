@@ -152,25 +152,18 @@ text-align: right;
 
 .musiker {
   text-align: left;
-  margin: 15px;
-  padding-left: 10px;
+  width: 95%;
 }
 
 .musiker p {
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.7;  
 }
 
 .box img {
-  width: 35%;
-  margin-right: 3%;
+  width: 40%;
   float: left;
-}
-
-.box p {
-  color: black;
-  margin: 10px auto 0px auto;
-  line-height: 1.5;
+  margin-right: 3em;
 }
 
 .video-container {
