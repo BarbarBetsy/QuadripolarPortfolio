@@ -110,9 +110,9 @@
 <section id="contact">
   <h1>Kontakt</h1>
   <hr>
-  <form id="form" action="https://www.freecodecamp.com/email-submit">
-    <input id="email" name="email" type="email" tabindex="1" placeholder="Email"><br>
-    <textarea class="input_text" tabindex="2" placeholder="Ihre Nachricht an Quadripolar."></textarea><br>
+  <form id="form" method="POST" action="contact.php">
+    <input id="email" name="email" type="email" tabindex="1" placeholder="Email" required><br>
+    <textarea class="input_text" tabindex="2" placeholder="Ihre Nachricht an Quadripolar." required></textarea><br>
     <input id="submit" class="button" type="submit" value="senden">
   </form>
 </section>
