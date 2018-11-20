@@ -26,7 +26,11 @@ li {
   list-style-type: none;
 }
 
-h1, a, h2, h3, a {
+h1,
+a,
+h2,
+h3,
+a {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
   text-transform: uppercase;
@@ -45,24 +49,32 @@ p {
 hr {
   width: 30px;
   height: 3px;
-  background-color:  #ffcc00;
+  background-color: #ffcc00;
   border: 0px;
   margin: 0 auto 20px auto;
 }
 
-#logo, li, img, .button, .fa-bars, a {
-  transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms;
+#logo,
+li,
+img,
+.button,
+.fa-bars,
+a {
+  transition: all 300ms;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -o-transition: all 300ms;
 }
 
 header {
-width: 100%;
-height: 70px;
-position: fixed;
-top: 0;
-left: 0;
-background-color:  white;
-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-z-index: 1;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  z-index: 1;
 }
 
 
@@ -82,8 +94,8 @@ header nav {
 }
 
 header nav ul li {
-float: left;
-margin-left: 40px;
+  float: left;
+  margin-left: 40px;
 }
 
 header nav ul li a {
@@ -121,14 +133,14 @@ h2 {
   margin: 0 auto;
   text-align: justify;
   font-size: 15px;
-line-height: 1.8;
+  line-height: 1.8;
 }
 
 #autor-zitat {
   width: 50%;
   margin: -10px auto 40px auto;
   font-size: 12px;
-text-align: right;
+  text-align: right;
 }
 
 .flex-container {
@@ -157,7 +169,7 @@ text-align: right;
 
 .musiker p {
   font-size: 14px;
-  line-height: 1.7;  
+  line-height: 1.7;
 }
 
 .box img {
@@ -177,7 +189,14 @@ text-align: right;
   width: 30%;
 }
 
-form input, textarea {
+#dates p {
+  text-align: left;
+  width: 40%;
+  margin: 2em auto;
+}
+
+form input,
+textarea {
   font-family: "Merriweather", serif;
   font-size: 15px;
   margin-bottom: 10px;
@@ -198,11 +217,11 @@ form input {
 }
 
 form textarea {
-width: 40%;
-height: 200px;
-resize: none;
-padding-top: 6px;
-padding: 10px;
+  width: 40%;
+  height: 200px;
+  resize: none;
+  padding-top: 6px;
+  padding: 10px;
 }
 
 .input_text {
@@ -218,7 +237,7 @@ padding: 10px;
 }
 
 .button:hover {
-  background-color:  #ffcc00;
+  background-color: #ffcc00;
 }
 
 footer {
@@ -237,9 +256,9 @@ footer a {
     padding: 0px;
   }
 
-#home h1 {
-  font-size: 30px;
-}
+  #home h1 {
+    font-size: 30px;
+  }
 
   h2 {
     font-size: 80px;
