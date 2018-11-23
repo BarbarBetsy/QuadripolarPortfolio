@@ -1,10 +1,10 @@
-/* Mocha: #b38065
-Lime: #d5e9cd */
+html, body {
+  width: 100%;
+}
 
 body {
   margin: 0px;
   padding: 0px;
-  height: 100%;
   text-align: center;
 }
 
@@ -114,7 +114,7 @@ header nav ul li:hover {
 }
 
 h2 {
-  font-size: 150px;
+  font-size: 130px;
   color: #ffcc00;
   margin-top: 0;
   padding-bottom: 150px;
@@ -122,6 +122,7 @@ h2 {
 }
 
 #home {
+  width: 100%;
   background-image: url(https://cdn1.imggmi.com/uploads/2018/9/23/bcfc76a5cb5ad520be7f4d50dea91f2c-full.png);
   background-position: center center;
   background-size: cover;
@@ -191,8 +192,7 @@ h2 {
 
 #dates p {
   text-align: left;
-  width: 40%;
-  margin: 2em auto;
+  margin: 2em auto 2em 30%;
 }
 
 form input,
@@ -249,36 +249,106 @@ footer a {
   line-height: 2.5em;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
 
-  body {
-    margin: 0px;
-    padding: 0px;
+  header nav {
+    margin: 10px 2% 2% 0;
   }
 
-  #home h1 {
-    font-size: 30px;
+  header nav ul li {
+    margin-left: 20px;
   }
 
   h2 {
-    font-size: 80px;
+    font-size: 100px;
+  }
+
+  #zitat {
+width: 80%;
   }
 
   .flex-container {
-    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flex-container img {
+    margin-right: 1em;
+  }
+
+  .musiker p {
+    margin: 1em;
+  }
+
+  .video-container {
     flex-direction: column;
-    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .video-container div {
+    width: 100%;
   }
 
-  .box {
-    margin: 20px auto;
-    width: 70%;
-    height: auto;
-    border-radius: 3px;
-    padding: 20px;
+  #dates p {
+    margin-left: 10%;
   }
 
-  .box i {
-    margin: 25px;
+  #form input {
+    width: 80%;
   }
+
+  #form textarea {
+    width: 80%;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+
+  #header {
+    text-align: center;
+    height: 100px;
+  }
+
+  #logo {
+margin: 1em auto 0 auto;
+float: none;
+  }
+
+  #nav-bar {
+    width: 100%;
+  }
+
+  header nav {
+    margin: 0 5% 2% auto;
+  }
+
+  header nav ul li {
+    float: right;
+    font-size: 1em;
+    margin: 5px;
+  }
+
+  #home h1 {
+font-size: 1em;
+padding-top: 150px;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+#dates {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#dates p {
+  line-height: 1.7;
+}
+
 }
