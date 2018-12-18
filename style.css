@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   width: 100%;
 }
 
@@ -123,7 +124,7 @@ h2 {
 
 #home {
   width: 100%;
-  background-image: url(https://cdn1.imggmi.com/uploads/2018/9/23/bcfc76a5cb5ad520be7f4d50dea91f2c-full.png);
+  background-image: url(img/hintergrund.png);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -264,7 +265,7 @@ footer a {
   }
 
   #zitat {
-width: 80%;
+    width: 80%;
   }
 
   .flex-container {
@@ -287,7 +288,7 @@ width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .video-container div {
     width: 100%;
   }
@@ -314,17 +315,23 @@ width: 80%;
   }
 
   #logo {
-margin: 1em auto 0 auto;
-float: none;
+    margin: 1em auto 0 auto;
+    float: none;
   }
 
   #nav-bar {
-    width: 100%;
+    margin: 1em auto;
+    float: none;
   }
 
-  header nav {
-    margin: 0 5% 2% auto;
+  .menu {
+    width: auto;
+    margin: auto;
   }
+
+  /* header nav {
+    margin: 0 auto;
+  } */
 
   header nav ul li {
     float: right;
@@ -332,23 +339,37 @@ float: none;
     margin: 5px;
   }
 
+  #home {
+    background-image: url(img/hintergrund-kl.png);
+  }
+
   #home h1 {
-font-size: 1em;
-padding-top: 150px;
+    font-size: 1em;
+    padding-top: 150px;
   }
 
   h2 {
     font-size: 3em;
   }
 
-#dates {
-  width: 90%;
-  margin-right: auto;
-  margin-left: auto;
-}
+  #dates {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
-#dates p {
-  line-height: 1.7;
-}
+  #dates p {
+    line-height: 1.7;
+  }
+
+  .box img {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+  header nav ul li {
+    float: left;
+    font-size: 0.9em;
+  }
 
 }
