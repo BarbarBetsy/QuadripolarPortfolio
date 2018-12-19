@@ -124,7 +124,7 @@ h2 {
 
 #home {
   width: 100%;
-  background-image: url(img/hintergrund.png);
+  background: url(img/hintergrund.png);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -339,6 +339,11 @@ footer a {
     font-size: 1em;
     margin: 5px;
     font-size: 1em;
+  }
+
+  #home {
+    background: url(img/hintergrund-phone.png);
+    background-size: cover;
   }
 
   #home h1 {
