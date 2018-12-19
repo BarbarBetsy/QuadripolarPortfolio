@@ -311,7 +311,11 @@ footer a {
 
   #header {
     text-align: center;
-    height: 100px;
+    height: auto;
+  }
+
+  #header nav {
+    margin: 0;
   }
 
   #logo {
@@ -325,31 +329,25 @@ footer a {
   }
 
   .menu {
-    width: auto;
-    margin: auto;
+    width: 70%;
+    padding: 0;
+    margin: 1em auto;
   }
-
-  /* header nav {
-    margin: 0 auto;
-  } */
 
   header nav ul li {
-    float: right;
+    float: none;
     font-size: 1em;
     margin: 5px;
-  }
-
-  #home {
-    background-image: url(img/hintergrund-kl.png);
+    font-size: 1em;
   }
 
   #home h1 {
     font-size: 1em;
-    padding-top: 150px;
+    /* padding-top: 150px; */
   }
 
   h2 {
-    font-size: 3em;
+    font-size: 2em;
   }
 
   #dates {
@@ -367,9 +365,5 @@ footer a {
     margin-bottom: 2em;
   }
 
-  header nav ul li {
-    float: left;
-    font-size: 0.9em;
-  }
 
 }
